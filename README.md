@@ -4,6 +4,10 @@ Integrant methods for connecting to a Datomic Cloud database.
 
 Heavily inspired by the awesome [duct.database.sql](https://github.com/duct-framework/database.sql) library.
 
+## Related Projects
+
+- https://github.com/hden/duct.module.datomic - A Duct module that adds Integrant keys for a Datomic database connection and Ragtime migrations to a configuration.
+
 ## Installation
 
 To install, add the following to your project dependencies:
