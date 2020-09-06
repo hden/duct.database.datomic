@@ -10,7 +10,7 @@
   [client db-name]
   {:pre [(and (satisfies? client-protocols/Client client)
               (string? db-name))]}
-  (when-not (contains? (into [] (datomic/list-databases client {}))
+  (when-not (contains? (into #{} (datomic/list-databases client {}))
                        db-name)
     (datomic/create-database client {:db-name db-name}))
   (datomic/connect client {:db-name db-name}))
