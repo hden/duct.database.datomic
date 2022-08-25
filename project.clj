@@ -1,4 +1,4 @@
-(defproject hden/duct.database.datomic "0.3.0"
+(defproject hden/duct.database.datomic "0.3.1"
   :description "Integrant methods for connecting to a Datomic Cloud database"
   :url "https://github.com/hden/duct.database.datomic"
   :license {:name "EPL-2.0"
