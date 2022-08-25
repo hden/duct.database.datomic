@@ -13,7 +13,7 @@ Heavily inspired by the awesome [duct.database.sql](https://github.com/duct-fram
 To install, add the following to your project dependencies:
 
 ```
-[hden/duct.database.datomic "0.1.0"]
+[hden/duct.database.datomic "0.3.1"]
 ```
 
 ## Usage
