@@ -7,6 +7,6 @@
   :managed-dependencies [[com.datomic/client-cloud "1.0.131"]]
   :dependencies [[org.clojure/clojure "1.12.0"]
                  [com.datomic/client-cloud]
-                 [diehard "0.11.12"]
+                 [diehard "0.11.13"]
                  [integrant "0.13.1"]]
   :repl-options {:init-ns duct.database.datomic})
