@@ -5,7 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :repositories [["datomic-cloud" {:url "s3://datomic-releases-1fc2183a/maven/releases"}]]
   :managed-dependencies [[com.datomic/client-cloud "1.0.131"]]
-  :dependencies [[org.clojure/clojure "1.12.1"]
+  :dependencies [[org.clojure/clojure "1.12.2"]
                  [com.datomic/client-cloud]
                  [diehard "0.11.13"]
                  [integrant "0.13.1"]]
